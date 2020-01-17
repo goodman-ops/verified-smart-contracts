@@ -1,8 +1,6 @@
-SPEC_GROUP:=buf/bihu
+#BUILD_DIR:=../erc20/.build
 
 SPEC_INI:=forwardToHotWallet-spec.ini
-
-BASEDIR_LEMMAS=$(RESOURCES)/lemmas-buf.md
 
 SPEC_NAMES:=collectToken \
             forwardToHotWallet-success-1 \
