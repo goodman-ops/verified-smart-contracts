@@ -1,4 +1,4 @@
-#BUILD_DIR:=../erc20/.build
+SPEC_GROUP:=buf/bihu
 
 SPEC_INI:=forwardToHotWallet-spec.ini
 

@@ -1,4 +1,4 @@
-#BUILD_DIR:=../.build
+SPEC_GROUP:=erc20/buf/hkg
 
 BASEDIR_LEMMAS=$(RESOURCES)/lemmas-buf.md
 LOCAL_LEMMAS:=../verification.k \
