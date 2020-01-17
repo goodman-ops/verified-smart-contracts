@@ -30,7 +30,7 @@ module COLLECTTOKEN-SPEC
 
           <callValue> 0 </callValue>
           <wordStack> .WordStack => _ </wordStack>
-          <localMem> .Map => ( .Map[ RET_ADDR := #asByteStackInWidth(1, 32) ] _:Map ) </localMem>
+          <localMem> .Map => ( .Map[ RET_ADDR := #buf(32, 1) ] _:Map ) </localMem>
           <pc> 0 => _ </pc>
           <gas> GASCAP => _ </gas>
           <callGas> _ => _ </callGas>

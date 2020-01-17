@@ -1,6 +1,7 @@
 #BUILD_DIR:=../.build
 
-LOCAL_LEMMAS:=../resources-concrete/verification.k \
+BASEDIR_LEMMAS=$(RESOURCES)/lemmas-buf.md
+LOCAL_LEMMAS:=../verification.k \
 			  ../../resources/abstract-semantics-segmented-gas.k \
 			  ../../resources/evm-symbolic.k \
 			  ../../resources/evm-data-map-concrete.k

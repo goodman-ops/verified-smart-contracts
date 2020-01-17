@@ -2,6 +2,8 @@
 
 SPEC_INI:=forwardToHotWallet-spec.ini
 
+BASEDIR_LEMMAS=$(RESOURCES)/lemmas-buf.md
+
 SPEC_NAMES:=collectToken \
             forwardToHotWallet-success-1 \
             forwardToHotWallet-success-2 \

@@ -9,11 +9,10 @@ module VERIFICATION
     imports EDSL
     imports LEMMAS
 
-    //Rules for #padToWidth with non-regular symbolic arguments.
-    rule #padToWidth(32, #asByteStack(V)) => #asByteStackInWidth(V, 32)
+    rule #padToWidth(32, #asByteStack(V)) => #buf(32, V) // #asByteStackInWidth(V, 32)
       requires 0 <=Int V andBool V <Int pow256
 
-    rule #asByteStackInWidth(#asWord(WS), N) => WS
+    rule #buf(N, #asWord(WS)) => WS
       requires #noOverflow(WS) andBool N ==Int #sizeWordStack(WS)
 
     rule N -Int N => 0
